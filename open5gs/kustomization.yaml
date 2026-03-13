@@ -4,9 +4,6 @@ namespace: open5gs
 resources:
   - common
   - slices
-images:
-  - name: ghcr.io/niloysh/open5gs
-    newTag: v2.7.0
 patches:
   - patch: |-
       - op: replace
